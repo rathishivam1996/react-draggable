@@ -1,8 +1,8 @@
 .container {
   position: relative;
   top: 0;
-  height: 1000px;
-  width: 1000px;
+  height: 100%;
+  width: 100%;
 
   background-color: blueviolet;
 }

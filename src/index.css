@@ -7,8 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Reset default margin and padding for html and body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Full height of the viewport */
+  height: 100vh;
+}
+
+/* Apply background color or styles if needed */
+body {
+  background-color: orange;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
