@@ -49,11 +49,12 @@ export interface DraggableOptions<
   Context = unknown,
   EventType extends DraggableEventType = DraggableEventType,
 > {
+  doubleTapped: boolean;
   threshold?: number;
   captureEvent?: boolean;
   detect?: EventType;
   filterEvents?: (event: DraggableReactEvents<Target>) => boolean;
-  cancelOnMovement?: boolean | number;
+  // cancelOnMovement?: boolean | number;
   cancelOutsideElement?: boolean;
   onStart?: DraggableCallback<Target, Context>;
   onMove?: DraggableCallback<Target, Context>;
